@@ -7,7 +7,7 @@ let cards = [
     {image:"https://images.unsplash.com/photo-1594025149461-6338fc34e3f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amlvfGVufDB8fDB8fHww",name:"JioHotstar",description:"Hi I am JioHotstar, I am a Indian Content Provider"},
     ]
   return (
-    <div className='w-full h-screen bg-yellow-200 flex items-center justify-center gap-2'>
+    <div className='w-full bg-yellow-200 grid grid-cols-1 place-items-center gap-5 pt-5 pb-5 lg:w-full h-screen grid-cols-3 '>
         {cards.map((e,index)=>(
             <div key={index} className='h-[300px] w-[250px] bg-red-200 rounded-lg overflow-hidden'>
                 <div className='w-full h-3/5 bg-blue-200'>
