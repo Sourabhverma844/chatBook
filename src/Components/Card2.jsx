@@ -23,7 +23,7 @@ function Card2() {
   return (
     <div className="w-full bg-green-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-screen place-items-center pt-5 pb-5">
       {songs.map((e, index) => (
-        <div key={index} className="w-[250px] rounded bg-pink-200 p-4">
+        <div key={index} className="w-[250px] rounded bg-pink-200 p-4 transition-all duration-300 ease-in-out hover:scale-110">
           <h1 className="font-semibold">{e.songename}</h1>
           <h5 className="font-thin mt-2">{e.description}</h5>
           <button
